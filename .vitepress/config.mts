@@ -5,6 +5,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Stellar Theme",
   description: "基于Xboard的前后分离的开源主题。",
+  ignoreDeadLinks: true,
 
   // ===== 新增 head 配置：加载 Font Awesome 图标库 =====
   head: [

@@ -1,0 +1,73 @@
+/* ============================================
+   1. 右侧大纲上方的“相关推荐”卡片样式
+   ============================================ */
+.aside-card-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.custom-aside-card {
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  padding: 14px 18px;
+  border: 1px solid var(--vp-c-divider);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.custom-aside-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.custom-aside-card h4 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  color: var(--vp-c-text-1);
+  letter-spacing: 0.3px;
+  border-bottom: 2px solid var(--vp-c-brand);
+  padding-bottom: 6px;
+  display: inline-block;
+}
+
+.custom-aside-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.custom-aside-card ul li {
+  font-size: 13px;
+  padding: 5px 0;
+  border-bottom: 1px solid var(--vp-c-divider-light);
+}
+
+.custom-aside-card ul li:last-child {
+  border-bottom: none;
+}
+
+.custom-aside-card ul li a {
+  color: var(--vp-c-text-2);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  display: block;
+  padding: 2px 0 2px 4px;
+  border-radius: 4px;
+}
+
+.custom-aside-card ul li a:hover {
+  color: var(--vp-c-brand);
+  background: var(--vp-c-brand-soft);
+  padding-left: 12px;
+}
+
+.dark .custom-aside-card {
+  background: var(--vp-c-bg-soft);
+  border-color: var(--vp-c-divider);
+}
+
+.dark .custom-aside-card ul li a:hover {
+  background: var(--vp-c-brand-soft);
+}

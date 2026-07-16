@@ -43,7 +43,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '项目预览', link: '/output' },
-      { text: '演示站点', link: 'https://demo-Stellar.aklibk.com' },
+      { text: '演示站点', link: 'https://stellar-demo.aklibk.com/' },
       { text: '配置文件生成', link: 'https://config.aklibk.wiki/' },
       { 
         component: 'VersionSelector' // 自定义组件（需在主题中注册）

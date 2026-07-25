@@ -5,7 +5,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Stellar Theme",
   description: "基于Xboard的前后分离的开源主题。",
-  ignoreDeadLinks: true,
+  ignoreDeadLinks: false,
 
   // ===== 新增 head 配置：加载 Font Awesome 图标库 =====
   head: [
@@ -52,34 +52,31 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '安装手册',
+        text: '项目介绍',
         items: [
-          { text: '项目介绍', link: '/dashboard' },
-          { text: 'docker安装教程', link: '/install/docker' },
-          { text: 'aapanel安装教程', link: '/install/aapanel' },
-          { text: '1panel安装教程', link: '/install/1panel' },
+          { text: '快速开始', link: '/dashboard' },
+          { text: '界面预览', link: '/output' },
         ]
       },
       {
-        text: '静态托管',
+        text: '项目部署',
         items: [
-          { text: 'Vercel 部署指南', link: '/install/vercel' },
-          { text: 'github Pages部署指南', link: '/install/github' },
-          { text: 'cloudflare Pages部署指南', link: '/install/cloudflare' }
+          { text: 'aaPanel 部署', link: '/install/aapanel' },
+          { text: 'Vercel 部署', link: '/install/vercel' },
+          { text: 'Cloudflare Pages', link: '/install/cloudflare' }
         ]
       },
       {
-        text: '配置文件详解',
+        text: '配置文件',
         items: [
-          { text: 'config配置详解', link: '/config/config' }
+          { text: '配置详解', link: '/config/config' },
+          { text: '配置生成器', link: '/config/generator' }
         ]
       },
       {
-        text: '故障排查',
+        text: '常见问题',
         items: [
-          { text: 'docker安装问题', link: '/troubleshooting/docker' },
-          { text: 'aapanel安装问题', link: '/troubleshooting/aapanelfaq' },
-          { text: '1panel安装问题', link: '/troubleshooting/1panel' }
+          { text: '故障排查', link: '/troubleshooting/faq' }
         ]
       }
     ],

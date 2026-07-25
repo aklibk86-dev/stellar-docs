@@ -1,71 +1,81 @@
-# 图片展示
+# 界面预览
 
-## 📊 仪表盘（`dashboard.jpg`）
+## 🏠 落地页
 
-![dashboard](img/dashboard.jpg)
+访客首页，展示品牌信息、产品特点、服务数据和套餐列表。
 
----
+![落地页](img/index.jpg)
 
-## 🏠 首页（`index.jpg`）
+## 🔑 认证页面
 
-![index](img/index.jpg)
+完整的用户登录和注册流程。
 
----
+### 登录
 
-## 📨 邀请（`invite.jpg`）
+支持用户名/邮箱登录、邮箱验证码登录等多种方式。
 
-![invite](img/invite.jpg)
+![登录页](img/login.jpg)
 
----
+### 注册
 
-## 📚 知识库（`knowledge.jpg`）
+新用户注册入口。
 
-![knowledge](img/knowledge.jpg)
+![注册页](img/register.jpg)
 
----
+## 📊 用户控制台
 
-## 🔑 登录（`login.jpg`）
+登录后的用户中心，包含以下模块：
 
-![login](img/login.jpg)
+### 仪表盘
 
----
+集中展示账户概况、套餐有效期、剩余流量、订阅导入和待处理事项提醒。
 
-## 📋 订单（`orders.jpg`）
+![仪表盘](img/dashboard.jpg)
 
-![orders](img/orders.jpg)
+### 套餐
 
----
+展示可购买的服务套餐，支持价格、周期和内容对比。
 
-## 📦 套餐（`plans.jpg`）
+![套餐页](img/plans.jpg)
 
-![plans](img/plans.jpg)
+### 订单
 
----
+查看历史订单和当前订单状态（待支付、已支付、已取消等）。
 
-## 👤 个人资料（`profile.jpg`）
+![订单页](img/orders.jpg)
 
-![profile](img/profile.jpg)
+### 流量统计
 
----
+通过图表展示流量使用趋势，支持不同时间范围查看。
 
-## 📝 注册（`register.jpg`）
+![流量统计](img/traffic.jpg)
 
-![register](img/register.jpg)
+### 服务器
 
----
+查看可用节点信息和线路状态。
 
-## 🖥️ 服务器（`servers.jpg`）
+![服务器页](img/servers.jpg)
 
-![servers](img/servers.jpg)
+### 工单
 
----
+提交工单、查看已有工单及处理状态。
 
-## 🎫 工单（`tickets.jpg`）
+![工单页](img/tickets.jpg)
 
-![tickets](img/tickets.jpg)
+### 邀请
 
----
+邀请链接、邀请记录以及佣金相关数据。
 
-## 📈 流量（`traffic.jpg`）
+![邀请页](img/invite.jpg)
 
-![traffic](img/traffic.jpg)
+### 知识库
+
+帮助文章和常见问题，支持富文本内容展示。
+
+![知识库](img/knowledge.jpg)
+
+### 个人资料
+
+账户信息管理、密码修改和安全设置。
+
+![个人资料](img/profile.jpg)

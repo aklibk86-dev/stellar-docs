@@ -2,7 +2,7 @@
 
 ## 概述
 
-配置文件为 [`public/env.js`](public/env.js)，是一个**运行时配置**文件。它通过 [`index.html`](index.html) 中的 `<script>` 标签在应用启动前加载，生成 [`window.settings`](public/env.js:15) 全局对象。
+配置文件为 `public/env.js`，是一个**运行时配置**文件。它通过 `index.html` 中的 `<script>` 标签在应用启动前加载，生成 `window.settings` 全局对象。
 
 **核心特点：**
 
@@ -33,10 +33,10 @@ window.routerBase = '/'
 
 | 字段 | 类型 | 默认值 | 说明 |
 |------|------|--------|------|
-| [`title`](public/env.js:17) | `string` | `'Stellar'` | 浏览器标签页标题、侧边栏品牌名称 |
-| [`description`](public/env.js:20) | `string` | `'Stellar Panel'` | 站点简介，用于页面描述或 SEO |
-| [`assets_path`](public/env.js:23) | `string` | `'/assets'` | 静态资源目录，一般保持默认 |
-| [`version`](public/env.js:31) | `string` | `'1.0.0'` | 前端展示的版本号，不影响后端 |
+| `title` | `string` | `'Stellar'` | 浏览器标签页标题、侧边栏品牌名称 |
+| `description` | `string` | `'Stellar Panel'` | 站点简介，用于页面描述或 SEO |
+| `assets_path` | `string` | `'/assets'` | 静态资源目录，一般保持默认 |
+| `version` | `string` | `'1.0.0'` | 前端展示的版本号，不影响后端 |
 
 ---
 
@@ -44,10 +44,10 @@ window.routerBase = '/'
 
 | 字段 | 类型 | 默认值 | 说明 |
 |------|------|--------|------|
-| [`theme.color`](public/env.js:27) | `string` | `'default'` | 主题主色，`'default'` 表示项目默认配色 |
-| [`background_url`](public/env.js:34) | `string` | `''` | 登录页/全局背景图 URL，留空使用默认背景 |
-| [`logo`](public/env.js:37) | `string` | `''` | 品牌 Logo URL，留空使用默认图标或文字标识 |
-| [`landing_theme_mode`](public/env.js:40) | `string` | `'dark'` | 落地页主题，可选 `'dark'` / `'light'` |
+| `theme.color` | `string` | `'default'` | 主题主色，`'default'` 表示项目默认配色 |
+| `background_url` | `string` | `''` | 登录页/全局背景图 URL，留空使用默认背景 |
+| `logo` | `string` | `''` | 品牌 Logo URL，留空使用默认图标或文字标识 |
+| `landing_theme_mode` | `string` | `'dark'` | 落地页主题，可选 `'dark'` / `'light'` |
 
 ---
 
@@ -68,8 +68,8 @@ landing_page_enabled: true,
 
 | 字段 | 类型 | 默认值 | 说明 |
 |------|------|--------|------|
-| [`telegram_group`](public/env.js:46) | `string` | `''` | Telegram 群组完整 URL。留空时尝试从后端配置文件读取，仍为空则隐藏入口 |
-| [`api_error_contact`](public/env.js:49) | `string` | `''` | API 全部检测失败时展示的联系信息，可填写客服 URL 或提示文字 |
+| `telegram_group` | `string` | `''` | Telegram 群组完整 URL。留空时尝试从后端配置文件读取，仍为空则隐藏入口 |
+| `api_error_contact` | `string` | `''` | API 全部检测失败时展示的联系信息，可填写客服 URL 或提示文字 |
 
 ---
 
@@ -179,8 +179,8 @@ static_base_urls: [
 
 | 字段 | 默认值 | 说明 |
 |------|--------|------|
-| [`check_enabled`](public/env.js:76) | `false` | 是否启用 API 健康检测 |
-| [`check_path`](public/env.js:77) | `'/api/v1/guest/comm/config'` | 检测请求的 API 路径 |
+| `check_enabled` | `false` | 是否启用 API 健康检测 |
+| `check_path` | `'/api/v1/guest/comm/config'` | 检测请求的 API 路径 |
 
 **启用检测的典型场景：**
 
@@ -200,10 +200,10 @@ check_enabled: true,
 
 | 字段 | 默认值 | 说明 |
 |------|--------|------|
-| [`proxy_enabled`](public/env.js:80) | `false` | 是否启用正向代理转发 |
-| [`proxy_url`](public/env.js:81) | `''` | 代理服务器地址 |
-| [`proxy_path`](public/env.js:82) | `'/api-proxy'` | 代理路径前缀 |
-| [`proxy_mode`](public/env.js:83) | `'base64Path'` | 代理寻址模式 |
+| `proxy_enabled` | `false` | 是否启用正向代理转发 |
+| `proxy_url` | `''` | 代理服务器地址 |
+| `proxy_path` | `'/api-proxy'` | 代理路径前缀 |
+| `proxy_mode` | `'base64Path'` | 代理寻址模式 |
 
 > 适用于需要代理中转的 CORS 或内网穿透场景。通常保持禁用。
 

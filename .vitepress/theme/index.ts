@@ -33,7 +33,7 @@ const AsideCards = {
                 class: 'fab fa-github', 
                 style: 'margin-right: 8px; width: 1.2em; text-align: center; color: #f0f0f0;' // 浅灰（适配深色背景）
               }),
-              h('a', { href: '/install/agithub' }, 'GitHub Pages 部署指南')
+              h('a', { href: '/install/aapanel' }, 'aaPanel 部署指南')
             ]),
             h('li', {
               style: 'display: flex; align-items: center; margin: 6px 0;'
@@ -42,7 +42,7 @@ const AsideCards = {
                 class: 'fab fa-cloudflare', 
                 style: 'margin-right: 8px; width: 1.2em; text-align: center; color: #F38020;' // Cloudflare 橙
               }),
-              h('a', { href: '/install/cloudflar' }, 'Cloudflare Pages 部署指南')
+              h('a', { href: '/install/cloudflare' }, 'Cloudflare Pages 部署指南')
             ]),
             h('li', {
               style: 'display: flex; align-items: center; margin: 6px 0;'
@@ -51,7 +51,7 @@ const AsideCards = {
                 class: 'fas fa-cog', 
                 style: 'margin-right: 8px; width: 1.2em; text-align: center; color: #94a3b8;' // 银灰色
               }),
-              h('a', { href: 'https://config.aklibk.wiki/' }, '配置文件生成')
+              h('a', { href: '/config/generator' }, '配置文件生成')
             ]),
           ]),
         ]),

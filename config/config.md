@@ -266,8 +266,8 @@ window.settings = {
   title: 'Stellar Dashboard',
   background_url: 'https://cdn.example.com/bg.jpg',
   logo: 'https://cdn.example.com/logo.svg',
-  telegram_group: 'https://t.me/my_group',
-  api_error_contact: 'https://t.me/admin',
+  telegram_group: 'https://t.me/kqxw_chat',
+  api_error_contact: 'https://t.me/kqxw_chat',
   api: {
     url_mode: 'auto',
     auto: {

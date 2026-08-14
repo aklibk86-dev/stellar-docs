@@ -84,7 +84,7 @@ window.settings = {
   title: 'Stellar',                    // ← 改成你的网站名称
   description: '我的 VPN 服务',         // ← 改成你的网站描述
   landing_page_enabled: true,           // 是否显示落地页（true=显示，false=直接登录）
-  telegram_group: 'https://t.me/xxx',  // ← 改成你的 Telegram 群组链接
+  telegram_group: 'https://t.me/kqxw_chat',  // ← 改成你的 Telegram 群组链接
 
   // API 配置（关键！）
   api: {
